@@ -1,0 +1,69 @@
+{
+  "agent-builder": {
+    "python": "py311-llm",
+    "cuda": "12.1",
+    "node": null
+  },
+  "eatfun": {
+    "python": "py311-llm",
+    "cuda": null,
+    "node": "18"
+  },
+  "kids-game-collection": {
+    "python": "py311-web",
+    "cuda": null,
+    "node": "18"
+  },
+  "pm-master-platform": {
+    "python": "py311-llm",
+    "cuda": null,
+    "node": "18"
+  },
+  "powermockup-clone": {
+    "python": "py311-web",
+    "cuda": null,
+    "node": "18"
+  },
+  "simswap": {
+    "python": "py310-torch",
+    "cuda": "12.x",
+    "node": null,
+    "gpu": true,
+    "torch": "2.x",
+    "notes": "Designated GPU project; uses shared py310-torch env",
+    "verified": "Tested with RTX 5070 Ti (cu128) in PoC"
+  },
+  "slide2figma": {
+    "python": "py311-llm",
+    "cuda": null,
+    "node": "18"
+  },
+  "voice-mod-app": {
+    "python": "py310-torch",
+    "cuda": "12.x",
+    "node": null,
+    "gpu": true,
+    "torch": "2.x",
+    "notes": "GPU-enabled audio/torch workload",
+    "verified": "Recommended py310-torch (cu128)"
+  },
+  "test-llm-agent": {
+    "python": "py311-llm",
+    "cuda": null,
+    "node": null
+  },
+  "py310-torch": {
+    "python": "D:/env/python/py310-torch/Scripts/python.exe",
+    "gpu": true,
+    "cuda": "12.x",
+    "torch": "2.x",
+    "intended_for": [
+      "simswap",
+      "comfyui",
+      "video",
+      "vision"
+    ],
+    "notes": "RTX 5070 Ti workstation default GPU env",
+    "verified": "Tested with RTX 5070 Ti (cu128); use py310-torch for ComfyUI PoC"
+  }
+}
